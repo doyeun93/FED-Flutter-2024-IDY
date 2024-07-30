@@ -62,6 +62,7 @@ void main(List<String> args) {
      * List 나 Set 또는 Map 집합데이터형을 지정할 때
      * 내부 데이터형을 정해주는 방법이다
      * List<제네릭> or Set<제네릭> or Map<제네릭>
+     *  > 참고: https://dart-ko.dev/language/generics
    ***************************************************************************/
 
   // 4. 콜렉션 : 묶음데이터
