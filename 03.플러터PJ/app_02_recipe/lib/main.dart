@@ -8,15 +8,10 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   // This widget is the root of your application.
-  // @override : 위젯을 재정의. 기존 클래스를 재정의 함을 표시 
-  // @overload : 동명의 메서드 다중정의. 같은 이름을 가진 전달받은 변수가 다르게 있으면
   @override
-  // 최상위 위젯 : 전체 틀을 잡아줌
   Widget build(BuildContext context) {
     return MaterialApp(
-      // 
-      debugShowCheckedModeBanner: false,
-      title: '나야나~!!!!',
+      title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -36,7 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: '나는 이제부터 플러터 개발자입니다~!'),
+      home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
